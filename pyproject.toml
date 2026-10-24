@@ -1,0 +1,20 @@
+[project]
+name = "axlab2-w01-llm-transformer"
+version = "0.1.0"
+description = "1회차 실습: LLM과 Transformer (M1·M2)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "python-dotenv>=1.0",
+    "transformers>=5.2",          # Qwen3.5(qwen3_5) config 인식은 5.2부터
+    "tokenizers",
+    "tiktoken>=0.9",
+    "huggingface-hub",
+    "numpy",
+    "matplotlib",
+]
+
+[tool.uv]
+package = false
+
+# torch는 넣지 않음: RunPod 이미지(pytorch:1.4.1-cu1281-torch280-ubuntu2204)의 torch 2.8.0+cu128을
+# `uv venv --system-site-packages`로 그대로 사용(매 Pod 수 GB 재다운로드 방지). uv.lock은 첫 uv sync 때 생성됨

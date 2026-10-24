@@ -1,0 +1,57 @@
+※ 가상 자료(합성) — ex21 BPE practice corpus (English). Line-by-line parallel to ex21_corpus_ko.txt
+Minji goes to school at eight in the morning.
+Every evening she rewrites what she learned at school in her notebook.
+School ended early today, so she stopped by the library with a friend.
+Her younger brother goes straight to taekwondo class after school.
+On the way home from school, she got a text saying the book she ordered had arrived.
+Check the delivery status of order number 12345678.
+Order number 12345678 is expected to arrive tomorrow morning.
+The customer asked about order numbers 12345679 and 12345680 together.
+If a delivery is late, just give the order number to the help center first.
+The total payment is 32,500 won, including a 3,000 won delivery fee.
+The function is named get_user_name and the variable is named user_name.
+In JavaScript code, the same function is called getUserName.
+Python usually uses snake_case, while Java often uses camelCase.
+The get_user_name function takes a user_id and returns the user name.
+If getUserName returns an empty string, check the logs first.
+The school library is open from nine in the morning to six in the evening on weekdays.
+When vacation starts, the school gets quiet and the library closes early too.
+Every Friday, the teacher gives a short quiz at school.
+The students like their school and enjoy studying with their friends.
+On rainy days, the school runs one more bus.
+When an order comes in, the warehouse picks the item, packs it, and ships it.
+Order number 12345678 contains two blue umbrellas and a pair of rain boots.
+If you want an exchange, we ask you to send the order number with a photo.
+Refunds are processed within three business days after the item reaches the warehouse.
+Enter your user name and password on the login screen.
+The server calls get_user_name and shows a greeting at the top of the screen.
+In the new code, we decided to use get_user_name instead of getUserName.
+When a variable name gets long, we split the words with underscores so it stays readable.
+In code review, we check that function names match their comments.
+If the tests pass, we push the changes to the repository.
+Minji joined the coding club at school and started learning Python.
+The club's first assignment was a program that takes a user name and says hello.
+She named the function get_user_name and showed it to a friend.
+Her friend, who had learned Java, wrote the same function as getUserName.
+The two of them learned that naming rules differ from language to language.
+The school is closed on weekends, so assignments are submitted online.
+Late assignments lose a few points, so always check the deadline.
+During exam season, the school library stays open until ten at night.
+Books borrowed from the library must be returned within two weeks.
+If you return a book late, a fee of one hundred won is added each day.
+The online bookstore shows an estimated arrival date for each order number.
+Order number 12345678 has already shipped and is now on its way.
+The courier sends a text with the visit time before arriving.
+If nobody is home, the package is left at the security office.
+After dinner, Minji finished her school homework and her club assignment.
+She has a coding presentation at school tomorrow, so she went to bed early.
+Her slides include a table comparing get_user_name and getUserName.
+After the presentation, the teacher praised her habit of naming things consistently.
+After class, she plays soccer with her friends on the school field.
+After exercising, she stops at a convenience store to buy water and milk.
+The receipt shows transaction number 87654321 instead of an order number.
+The shop owner said the new payment program throws a getUserName error.
+Minji wondered whether the error was related to the get_user_name setting.
+She got career advice from a senior who had graduated from the school.
+Some students come to the school on weekends to study on their own.
+Back home, she wrote a short diary entry about what she learned today.
