@@ -1,0 +1,34 @@
+{
+  "path_ascii": {
+    "status": "OK",
+    "detail": "경로 ASCII"
+  },
+  "python": {
+    "status": "OK",
+    "detail": "Python 3.12 (/workspace/LocalAX/.venv/bin/python)"
+  },
+  "uv": {
+    "status": "OK",
+    "detail": "uv 0.13.1 (x86_64-unknown-linux-musl) / uv.lock 있음 / venv 사용"
+  },
+  "git": {
+    "status": "OK",
+    "detail": "git version 2.34.1 / user.name=설정 / user.email=설정"
+  },
+  "gitignore": {
+    "status": "OK",
+    "detail": "필수 패턴 모두 포함"
+  },
+  "env_tracked": {
+    "status": "OK",
+    "detail": ".env 미추적"
+  },
+  "dotenv": {
+    "status": "WARN",
+    "detail": "HF_TOKEN=(빈 값) / GEMINI_API_KEY=(빈 값) / TAVILY_API_KEY=(빈 값)"
+  },
+  "disk": {
+    "status": "FAIL",
+    "detail": "14 GB 여유 (기준 20 GB: 모델·캐시)"
+  }
+}

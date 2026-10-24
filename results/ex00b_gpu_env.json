@@ -1,0 +1,75 @@
+{
+  "nvidia_smi": {
+    "status": "OK",
+    "name": "NVIDIA A40",
+    "driver_version": "595.91.07",
+    "memory.total": 46068,
+    "memory.used": 0,
+    "compute_cap": "8.6",
+    "driver_cuda": "13.2",
+    "detail": "NVIDIA A40 / 드라이버 595.91.07 (CUDA 13.2) / 0/46068 MiB 사용 / cc 8.6"
+  },
+  "nvcc": {
+    "status": "OK",
+    "detail": "nvcc 12.8"
+  },
+  "torch": {
+    "status": "OK",
+    "torch": "2.8.0+cu128",
+    "torch_cuda": "12.8",
+    "capability": [
+      8,
+      6
+    ],
+    "arch_ok": true,
+    "driver_ge_torch_cuda": true,
+    "detail": "torch 2.8.0+cu128 / 빌드 CUDA 12.8 / sm_86 커널 있음 / 드라이버 CUDA ≥ 빌드 CUDA"
+  },
+  "cudnn": {
+    "status": "OK",
+    "cudnn": "91002",
+    "venv_ascii": true,
+    "detail": "cuDNN 91002 / venv 경로 ASCII"
+  },
+  "bench": {
+    "status": "OK",
+    "bf16_tflops": 106.4,
+    "copy_gbps": 562.0,
+    "peak_alloc_gib": 2.07,
+    "detail": "bf16 matmul 106.4 TFLOPS / 복사 대역폭 562 GB/s"
+  },
+  "disk": {
+    "status": "FAIL",
+    "free_gb": 14.4,
+    "detail": "/workspace 여유 14 GB (기준 20 GB)"
+  },
+  "reference": [
+    {
+      "reference": "RTX 4090 24GB (RunPod 개인 Pod)",
+      "ref_vram_mib": 24564,
+      "ref_tflops": 82.6,
+      "ref_bw": 1008,
+      "vram_ratio": 1.88,
+      "tflops_ratio": 1.29,
+      "bw_ratio": 0.56
+    },
+    {
+      "reference": "L4 24GB (RunPod 개인 Pod)",
+      "ref_vram_mib": 23034,
+      "ref_tflops": 121.0,
+      "ref_bw": 300,
+      "vram_ratio": 2.0,
+      "tflops_ratio": 0.88,
+      "bw_ratio": 1.87
+    },
+    {
+      "reference": "RTX A5000 24GB (RunPod 개인 Pod)",
+      "ref_vram_mib": 24564,
+      "ref_tflops": 55.6,
+      "ref_bw": 768,
+      "vram_ratio": 1.88,
+      "tflops_ratio": 1.91,
+      "bw_ratio": 0.73
+    }
+  ]
+}
