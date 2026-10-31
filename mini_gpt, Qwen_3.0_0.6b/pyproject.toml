@@ -1,0 +1,36 @@
+[project]
+name = "axlab2-w01-llm-transformer"
+version = "0.1.0"
+description = "AX연구소 2차수 1회차 실습: LLM과 Transformer (M1·M2)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    # 0~3회 공통 목록 — week0~week3 pyproject에서 항상 같게 유지(venv 하나를 함께 씀)
+    "python-dotenv>=1.0",
+    "torch==2.8.0",   # RunPod 템플릿 runpod/pytorch:1.4.1-cu1281-torch280-ubuntu2204의 시스템 torch와 같게 고정(pod_setup_uv.sh가 재사용)
+    "transformers>=5.0",
+    "tokenizers>=0.21",
+    "tiktoken>=0.9",
+    "huggingface_hub>=0.30",
+    "accelerate>=1.0",   # 2회 ex02: from_pretrained(device_map="cuda")에 필요
+    "safetensors>=0.4",
+    "sentencepiece>=0.2",
+    "protobuf>=4.0",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "pyarrow>=26.0.0",
+    "matplotlib>=3.8",
+    "requests>=2.31",
+    "openai>=1.40",
+]
+
+[tool.uv]
+package = false
+
+# RunPod Linux(드라이버 CUDA 12.8+): cu128 휠. uv.lock은 함께 둠(범용 잠금, pod_setup_uv.sh가 `uv sync --frozen`으로 설치)
+[tool.uv.sources]
+torch = [{ index = "pytorch-cu128" }]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
